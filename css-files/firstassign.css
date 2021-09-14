@@ -1,0 +1,1516 @@
+/*The properties of the body of the home page*/
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:whitesmoke!important ;
+
+}
+/*The properties of the  header section for the homepage */
+.top-most-flex-container{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30px;
+    padding-top: 20px;
+    padding-bottom:25px;
+    align-items: center;
+    background-color: whitesmoke;
+    /* box-sizing: border-box; */
+}
+/*The properties of the logo on the header of the home page. */
+.logo{
+flex-basis:20%;
+background-color:whitesmoke;
+align-self: flex-start;
+height:40px ;
+margin-left: 15px;
+margin-right: 10px;
+font-weight: 600;
+font-size: x-large;
+color: #009bd9;
+padding-top: 2px;
+padding-bottom: 2px;
+padding-right:2px;
+padding-left:6px;
+}
+/*The properties of the computer icon on the header section on the homepage*/
+.computer{
+    flex-basis:5%;
+    background-color:whitesmoke;
+    align-self: flex-start;
+    height:40px ;
+    margin-left: 15px;
+    margin-right: 10px;
+    padding-top: 2px;
+    padding-bottom:2px;
+    padding-right:2px;
+    padding-left:2px;
+    border-radius: 15px;
+    
+}
+/*The properties for the hovering of a mouse  on the computer icon on the header*/
+.computer:hover{
+    background:#39c5ff ;
+}
+    
+/*The properties of the tablet icon on the header of the homepage */
+.tablet{
+    flex-basis:2%;
+    background-color:whitesmoke;
+    align-self: flex-start;
+    height:40px ;
+    margin-left: 15px;
+    margin-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    /* border-radius:15px; */
+}
+/*The properties of the hovering when a mouse is hovered over the tablet icon on the header*/
+.tablet:hover{
+    background:#39c5ff ;
+}
+ /*The properties of the phone icon on the header of the home page*/   
+
+.phone{
+    flex-basis:2%;
+    background-color: whitesmoke;
+    align-self: flex-start;
+    height:40px ; 
+    margin-left: 15px;
+    margin-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 25px;
+}
+/*The properties of the hovering when the mouse hovers on the phone icon on the header of the homepage*/
+.phone:hover{
+    background:#39c5ff ;
+}
+/*The properties of the external link icon that is on the header of the homepage*/
+.demobar{
+    flex-basis:2%;
+    background-color:whitesmoke;
+    align-self: flex-end;
+    height:40px ; 
+    margin-left:340px;
+    margin-right:0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: solid 1px #d4d6df;;
+    border-radius: 25px;
+}
+/*The properties for the hovering of the mouse on the external link icon that is on the header of the homepage*/
+.demobar:hover{
+    border: groove 1px #39c5ff;
+}
+/*The properties of the home icon on the header of the home page */
+.home{
+    flex-basis:1%;
+    background-color: whitesmoke;
+    align-self: flex-end;
+    height:40px ; 
+    margin-left:0px;
+    margin-right:1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 25px;
+    border: solid 1px #d4d6df;;
+}
+/*The properties of the hovering of the mouse on the home icon on the header of the homepage  */
+.home:hover{
+ border: groove 1px  #39c5ff; 
+}
+
+.demobar{
+    flex-basis:2%;
+    background-color:whitesmoke;
+    align-self: flex-end;
+    height:40px ; 
+    margin-left:340px;
+    margin-right:0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: solid 1px #d4d6df;
+    border-radius: 25px;
+}
+/*The properties for the hovering of the mouse on the external link icon that is on the header of the homepage*/
+.demobar:hover{
+    border: solid 1px #39c5ff;
+}
+/*The  properties of the freedownload button on the header of the home page*/
+.freedownload{
+    flex-basis:15%;
+    background-color:#00a6eb;
+    align-self: flex-end;
+    height:40px ; 
+    margin-left:0px;
+    margin-right: 1px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: solid 1px #00a6eb;
+    border-radius: 15px;
+    
+}
+/*The properties for the link on the free-down  button on the header section of the home page */
+.freedownload a{
+    text-decoration: none;
+    font-weight: 500;
+    color:white;
+    font-size: 17px;
+    /* background: #00a6eb; */
+    /* border: solid 1px #00a6eb; */
+}
+/*The properties of the hovering on the free-download button on the header of the home page*/
+.freedownload:hover{
+    background-color:#39c5ff;
+    
+}
+/*The properties of the leftarrow on the header of the homepage*/
+.leftarrow{
+    flex-basis:1%;
+    background-color:whitesmoke;
+    align-self: flex-end;
+    height:40px; 
+    /* margin-left:0px;
+    margin-right: 0px; */
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 25px;
+    border: groove 1px #d4d6df;
+}
+/*The properties for the hovering of the left-arrow of the homepage*/
+.leftarrow:hover{
+  border:solid 1px #39c5ff;;
+}
+/*The properties of the right-arrow on the header of the homepage*/
+.rightarrow{
+    flex-basis:1%;
+    background-color:whitesmoke;
+    align-self: flex-end;
+    height:40px; 
+    margin-left:0px;
+    margin-right:30px; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 25px;
+    border: groove 1px #d4d6df;
+}
+/*The properties of hovering of the mouse on the header of the homepage */
+.rightarrow:hover{
+    border:solid 1px #39c5ff;;
+}
+/*The properties for the second top most container inside the first section of the home page*/
+.second-flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  height:30px;
+  padding-top: 20px;
+  padding-bottom:25px;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #40455A;
+
+}
+/*The properties of the selaceco on the second section of the homepage*/
+.selacecao{
+    width: 9%;
+    background-color: #40455A;;
+    margin-left:80px;
+    font-weight: 800;
+    font-size:30px;
+    color: white;
+    align-self: flex-start;
+    /* padding-right: 10px;
+    /* padding-left:20px; */
+    /* padding-top: 5px;
+    padding-bottom: 5px; */ 
+    padding-left:20px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+
+/*The home2 curved div on the second section of the second section*/
+.home2{
+    width:4%;
+    background-color:#40455A; ;
+    margin-left:200px;
+    margin-right:1px;
+    padding-right: 10px;
+    padding-left:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*The properties for  hovering of the mouse on home2 */
+.home2:hover{
+    color:darkblue;
+    background-color:tomato;
+    border: solid 1px tomato;
+    border-radius: 25px;
+}
+/*The properties of the about curved div on the second section of the home page*/
+.about{
+    width:4%;
+    background-color:#40455A;
+    /* margin-left:1px; */
+    margin-right:1px;
+    padding-right: 10px;
+    padding-left:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*The properties for the hovering of the about div in the second  section*/
+.about:hover{
+    border-radius: 25px;
+    border: solid 1px tomato;
+    background-color:tomato;
+    color:darkblue;
+    
+}
+/*The properties of the curved  services divs in the second section*/
+.services{
+    width:4%;
+    background-color:#40455A;
+    /* margin-left:1px; */
+    margin-right:1px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/*The properties for the hovering of the curved services div on the second section of the home page*/
+.services:hover{
+    border-radius: 25px;
+    border: solid 1px tomato;
+    background-color:tomato;
+    color:darkblue;
+
+}
+/*The properties for the portifolio curved div in the second section of the home page*/
+.portifolio{
+    width:4%;
+    background-color:#40455A;
+    /* margin-left:1px; */
+    margin-right:1px;
+    padding-right:28px;
+    padding-left:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*The properties for the hovering of the curved  portifolio div on the second section of the home page*/
+.portifolio:hover{
+    border-radius: 25px;
+    border: solid 1px tomato;
+    background-color:tomato;
+    color:darkblue;
+
+}
+/*The properties for the  curved div of pricing on the second section of the home page*/
+.pricing{
+    width:3%;
+    background-color:#40455A;
+    /* margin-left:1px; */
+    margin-right:1px;
+    padding-right:28px;
+    padding-left:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*The properties of the hovering on the curved div of pricing*/
+.pricing:hover{
+    border-radius: 25px;
+    border: solid 1px tomato;
+    background-color:tomato;
+    color:darkblue;
+
+}
+/*The properties of the  curved team div on the second section of the home page */
+.team{
+    width:2%;
+    background-color:#40455A;
+    /* margin-left:1px; */
+    margin-right:1px;
+    padding-right:28px;
+    padding-left:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*The properties of the hovering on the curved div of  team on the second section of the home page */
+.team:hover{
+    border-radius: 25px;
+    border: solid 1px tomato;
+    background-color:tomato;
+    color:darkblue;
+
+}
+/*The properties for the dropdown div on the  second section of the home page*/
+ .dropdown{
+    width:9%;
+    background-color:#40455A;
+    /* margin-left:1px; */
+    margin-right:1px;
+    padding-right:28px;
+    padding-left:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    display: inline;
+    position: relative;
+}  
+/*The properties for the hovering of the dropdown curved div on the second section of the homepage*/
+.dropdown:hover{
+    border-radius: 25px;
+    border: solid 1px tomato;
+    background-color:tomato;
+    color:darkblue;
+    
+    
+
+}
+/*The properties for the drop-down button inside the dropdown curved div on the second section on the homepage*/
+.drop-down-btn{
+    width:100%;
+    height:100%;
+    border-radius: 25px;
+    background-color:#40455A;
+    border-style: none;
+    color: white;
+
+}
+/*The properties of the links on the drop-down button*/
+.drop-down-btn a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/*The properties of the hovering of the dropdown button inside the dropdown curved div on the second section on the homepage*/
+.drop-down-btn:hover{
+    color: white;
+    border-style: none;
+    border-radius: 25px;
+    background-color:tomato;
+}
+/*The properties of the drop-down-content-1 on the second section on the home page*/
+.drop-down-content-1{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/*The properties of the links inside the drop-down content on the section section on the home page*/
+.drop-down-content-1 a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown content links on hover   */
+.drop-down-content-1 a:hover {background-color:tomato;}
+
+/* Show the dropdown menu on hover of the drop-down div*/
+.dropdown:hover .drop-down-content-1 {display: block;}
+
+/*The properties of the contact curved div on the second section on the home page*/
+.contact{
+    width:3%;
+    background-color:#40455A;
+    margin-left:1px;
+    margin-right:70px;
+    padding-right:28px;
+    padding-left:15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/*The properties of the hovering on the curved contact div on the second section of the home page*/
+.contact:hover{
+    border-radius: 25px;
+    border: solid 1px tomato;
+    background-color:tomato;
+    color:darkblue;
+}
+/*The properties of the third-flex-container on the home page*/
+.third-flex-container{
+  width:100%;
+  height:400px;
+  background-color: #40455A;
+  display: flex;
+  color: white;
+ 
+  
+}
+/*The properties of the information on the third-flex-container  on the home page*/
+.homepg-info{
+  margin-left:25%;
+  text-align: center;
+  background-color: #40455A;
+  width:50%;
+  height:80%;
+}
+/*The properties of the h1 property on the homepg-info */
+.homepg-info h1{
+
+ font-weight: 600;
+ font-size:40px;
+}
+/*The properties of the paragraph  property on the homepg-info */
+.homepg-info p{
+ margin-bottom: 50px;
+}
+/*The properties of the curved div at  the  bottom of third-flex-container on the home page */
+.readmore{
+    /* margin-top: 20px; */
+    border-radius: 25px;
+    border: solid 1px tomato;
+    width:9%;
+    height:9%;
+    align-content: center;
+    padding-top: 8px;
+    padding-bottom:8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+      
+}
+
+/*The properties for the hovering of the readmore div on the homepage*/
+.readmore:hover{
+    background-color: tomato;
+    border: solid 1px tomato;
+}
+/*The properties of the forth-flex-container on the home page */
+.forth-flex-container{
+  display: flex;
+  width:100%;
+  height:400px;
+  padding-top: 20px;
+  padding-bottom:25px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color:white;
+}
+/*The properties of the left about us div */
+.left-about-us{
+  width: 40%;
+  height: 300px;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top: 20px;
+  padding-bottom:60px;
+  margin-left: 60px;
+  margin-right:10px;
+  align-self: flex-start;
+  background-color:white;
+}
+
+/*The properties of the top-most paragraph on the the left-about-us div */
+#abt-top-p{
+    font-style:bold;
+    font-size:15px;
+    font-weight: 900;
+    color: lightslategray;
+    
+   }
+   /*The properties of the list in the abt-ul*/
+   .abt-ul li{
+    list-style:none;
+    display: inline;
+    margin-left:0;
+   }
+   /*The properties of the dash on about */
+   #dash{
+       color: tomato;
+   }
+/*The properties of the heading on the left-about-us div*/
+   .whoweare{
+    font-weight: 900;
+    font-size:40px;
+
+   }
+.ul-left-abtus li{
+    list-style:armenian;
+    
+   }
+
+/*The properties of the right-about-us div */
+.right-about-us{
+    width: 40%;
+    height: 200px;
+    margin-right:50px ;
+    margin-bottom: 20px;
+    align-self: flex-end;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    background-color: white;
+}
+/*The properties for the learn more div*/
+.learnmore{
+ width:25%;
+ height: 20px;
+ padding-top:10px;
+ padding-bottom:10px;
+ padding-left: 30px;
+ padding-right: 20px;
+ border-radius: 15px;
+ color: tomato;
+ text-decoration: none;
+ border: solid 1px tomato;
+}
+/*The hovering properties for the learnmore div*/
+.learnmore:hover{
+    color: white;
+    border-radius: 15px;
+    background-color: tomato;
+    border: solid 1px tomato;
+}
+/*The properties of the fifth-flex-container */
+.fifth-flex-container{
+ width:100%;
+ height: 150px;
+ display: flex;
+ flex-direction: row;
+ background-color:white;
+}
+/*The properties of the sun-link div inside the fifth-flex-container */
+.sun-link{
+ width: 20%;
+ height:100px;
+ text-align: center;
+ text-decoration: none;
+ color:black;
+ padding:1%;
+ margin: auto;
+ box-sizing: border-box;
+ border: solid 1px #d4d6df;
+ background-color:white;
+
+}
+/*The hovering properties of the sun-link div on the fifth-flex-container */
+.sun-link:hover{
+    color: white;
+    background-color: tomato;
+    border: solid 1px tomato;
+}
+/*The properties of the moon-link div inside the fifth-flex-container */
+.moon-link{
+    width: 20%;
+    height:100px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    padding:1%;
+    margin: auto;
+    box-sizing: border-box;
+    border: solid 1px #d4d6df;
+    background-color: white;
+}
+/*The hovering properties of the moon-link div on the fifth-flex-container */
+.moon-link:hover{
+    color: white;
+    background-color: tomato;
+    border: solid 1px tomato;  
+
+}
+/*The properties of the handsup-link div inside the fifth-flex-container */
+
+.handsup-link{
+    width: 20%;
+    height:100px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    padding:1%;
+    margin: auto;
+    box-sizing: border-box;
+    border: solid 1px #d4d6df;
+    background-color: white;
+}
+/*The hovering properties of the handsup-link  div on the fifth-flex-container */
+.handsup-link:hover{
+    color: white;
+    background-color: tomato;
+    border: solid 1px tomato;
+
+}
+/*The properties of the star-link div inside the fifth-flex-container */
+.star-link{
+    width: 20%;
+    height:100px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    padding:1%;
+    margin: auto;
+    box-sizing: border-box;
+    border: solid 1px #d4d6df;
+    background-color: white;
+}
+
+/*The hovering properties of the star-link div on the fifth-flex-container */
+.star-link:hover{
+    color: white;
+    background-color: tomato;
+    border: solid 1px tomato;
+
+}
+/*The properties for the sixth-flex-container */
+.sixth-flex-container{
+ width:100%;
+ height: 550px;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+ background-color:white;
+}
+/*The properties for the inner-sixth-flex-containers inside the sixth-flex-container */
+.inner-sixth-flex-containers{
+width: 45%;
+height:450px;
+text-align: left;
+text-decoration: none;
+color:black;
+padding-left:50px;
+box-sizing: border-box;
+background-color:white;
+}
+/*The properties of the list in the sixth-flex-ul  */
+.sixth-flex-ul li{
+ line-height: 30px;
+ list-style: armenian;
+}
+/*The properties of the seventh-flex-container */
+.seventh-flex-container{
+    width:100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    /* justify-content:space-between; */
+    background-color:#40455A;
+}
+/*The properties for the div on the left side of the seventh-flex-container*/
+#call-for-action{
+    width:65%;
+    height: 200px;
+    padding-left: 80px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    color:white;
+    background-color: #40455A;
+}
+/*The properties for the heading on the call-for-action div*/
+#call-for-action h2{
+ font-weight:900;
+ font-size:30px;
+}
+/*The properties for the right div on the seventh-flex-container */
+#call-for-action-2{
+    width:27%;
+    height: 120px;
+    align-content: center;
+    padding-left: 50px;
+    padding-top: 130px;
+    background-color: #40455A;
+}
+/*The properties for the link on the right div of the seventh-flex-container */
+#call-for-action-2 a{
+ width:35%;
+ height: 80px;
+ font-weight: 600;
+ padding-left:10px;
+ padding-right:10px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-radius: 25px;
+ background-color: tomato;
+ color: white;
+ text-decoration: none;
+ border: solid 1px tomato;
+}
+/*The properties for the hovering on the link inside the right div of the call-for-action-2 */
+#call-for-action-2 a:hover{
+    color:tomato;
+    background-color: white;
+    border: solid 1px white;
+}
+.eighth-flex-container{
+    width:100%;
+    height: 120px;
+    display: flex;
+    background-color: whitesmoke;
+   
+
+}
+#inner-div-eighth-flex-container{
+    width: 50%;
+    height:120px;
+    
+}
+
+.eighth-flex-container li{
+    list-style:none;
+    display: inline;
+}
+#services-li{
+    font-style:bold;
+    font-size:15px;
+    font-weight: 900;
+    color: lightslategray;
+}
+
+#second-dash{
+ color: tomato;
+}
+.eighth-flex-container h1{
+  font-weight: 900;
+  font-size: 40px;
+  margin-left: 40px;
+  line-height: 10px;
+   
+}
+.nineth-flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height:500px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    justify-content:space-around;
+   
+
+}
+.inner-div-nineth-flex-container{
+    width: 30%;
+    height:200px;
+    margin: auto;
+    margin-bottom:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px whitesmoke; 
+   
+
+}
+.inner-most-div{
+    float:right;
+    width:80%;
+    height:150;
+    line-height: 25px;
+    
+
+}
+.tenth-flex-container{
+    width:100%;
+    height: 120px;
+    display: flex;
+    background-color: whitesmoke;
+    
+
+}
+.inner-div-tenth-flex-container{
+    width: 70%;
+    height:120px;
+    
+
+}
+.inner-div-tenth-flex-container li{
+    list-style:none;
+    display:inline;
+}
+.testimonials-li{
+    font-style:bold;
+    font-size:15px;
+    font-weight: 900;
+    color: lightslategray;
+}
+
+.dash3{
+ color: tomato;
+}
+.inner-div-tenth-flex-container h1{
+    font-weight: 900;
+    font-size: 40px;
+    margin-left: 40px;
+    line-height: 10px;
+     
+}
+.eleventh-flex-container{
+ display: flex;
+ width: 100%;
+ height: 420px;
+ padding-bottom: 20px;
+ padding-top:20px;
+ padding-right:20px;
+ padding-left:20px;
+ box-sizing: border-box;
+ background-color: whitesmoke;
+ 
+}
+.inner-eleventh-flex-item{
+ width:24%;
+ height:380px;
+ text-align: center;
+ line-height: 20px;
+ padding-left: 20px;
+ padding-right:20px;
+ background-color: white;
+ box-sizing: border-box;
+ margin: auto;
+ border: solid 1px whitesmoke;
+}
+
+.feedbackimg{
+  border-radius: 50px;
+}
+.twelveth-flex-container{
+    width:100%;
+    height: 120px;
+    display: flex;
+    background-color: whitesmoke;
+    
+
+}
+.inner-twelveth-flex-container{
+    width: 70%;
+    height:120px;
+   
+}
+.inner-twelveth-flex-container li{
+list-style:none;
+display:inline;
+
+}
+
+.inner-twelveth-flex-container h1{
+    font-weight: 900;
+    font-size: 40px;
+    margin-left: 40px;
+    line-height: 10px;
+}
+.Thirteenth-flex-container{
+    display: flex;
+    width: 100%;
+    height: 460px;
+    padding-bottom: 20px;
+    padding-top:20px;
+    padding-right:20px;
+    padding-left:20px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    
+
+}
+.thirteenth-div-flex-item{
+width:24%;
+height:430px;
+text-align: center;
+line-height: 20px;
+background-color: whitesmoke;
+box-sizing: border-box;
+margin: auto;
+border: solid 1px whitesmoke;
+
+}
+.top-inner-most-flex-item{ 
+ width:100%;
+ height: 80px;
+ text-align: center;
+ font-size:20px;
+ font-weight: 600;
+ color:gray;
+ padding-top: 20px;
+ background-color: rgb(240, 240, 240);
+ box-sizing: border-box;
+ 
+
+}
+.middle-inner-most-flex-item{
+    width:100%;
+    height: 265px;
+    text-align: center;
+    font-size:15px;
+    padding-top:10px;
+    background-color: white;
+    box-sizing: border-box;
+    
+}
+.last-inner-most-flex-item{ 
+    width:100%;
+    height: 80px;
+    text-align: center;
+    font-size:15px;
+    padding-top:30px;
+    padding-bottom: 20px;
+    background-color:rgb(240, 240, 240);
+    box-sizing: border-box;
+    
+}
+.middle-inner-most-flex-item li{
+ list-style:none;
+ display: inline;
+
+}
+.left-li{
+    font-weight: 400;
+    font-style:bold;
+    font-size: 30px;
+    color:tomato
+
+}
+sub{
+
+    font-weight: 500;
+    font-style:bold;
+    font-size: 40px;
+    color:tomato
+}
+.right-li{
+    color:gray;
+    font-size: 20px;
+    ;
+}
+.paragraph-flex{
+ line-height: 30px;
+
+}
+.strikethru{
+    color: gray;
+    text-decoration: line-through;
+}
+.buynow{
+    
+    border-radius: 25px;
+    border: solid 1px tomato;
+    width:20%;
+    height:20px;
+    padding-bottom: 10px;
+    padding-top:10px;
+    align-content: center;
+    background-color: tomato;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top:20px;
+    text-decoration: none;
+    color: white;
+}
+.buynow:hover{
+ background-color: #ff781f;
+}
+#orange-div{
+ border: solid 2px #ff781f;
+}
+#orange-business{
+color:white;
+background-color:tomato;
+}
+.fourteenth-flex-container{
+    width:100%;
+    height: 120px;
+    display: flex;
+    background-color: whitesmoke;
+    
+}
+.fifteenth-flex-container{
+    display: flex;
+    width: 100%;
+    height: 460px;
+    padding-bottom: 20px;
+    padding-top:20px;
+    padding-right:20px;
+    padding-left:20px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    
+}
+.employee-flex-item{
+    width:24%;
+    height:400px;
+    text-align: center;
+    line-height: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    margin: auto;
+    border: solid 2px whitesmoke;
+
+}
+.sixteenth-flex-container{
+    width:100%;
+    height:120px;
+    display:flex;
+    background-color: whitesmoke;
+
+}
+.eighteenth-flex-container{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding-bottom: 20px;
+    padding-top:20px;
+    padding-right:40px;
+    padding-left:40px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    
+}
+.left-contact-div{
+   width:40%;
+   height:470px;
+   padding-bottom: 20px;
+   padding-top:20px;
+   padding-right:20px;
+   padding-left:20px;
+   margin: auto;
+   box-sizing: border-box;
+   background-color: whitesmoke;
+   
+
+}
+.right-contact-div{
+   width:60%;
+   height:470px;
+   padding-bottom: 10px;
+   padding-top:20px;
+   padding-right:20px;
+   padding-left:20px;
+   margin: auto;
+   box-sizing: border-box;
+   background-color: whitesmoke;
+  
+}
+.top-inner-left-contact-div{
+  width:100%;
+  height:100px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom:10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  
+}
+.middle-inner-left-contact-div{
+    width:100%;
+    height:100px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    
+}
+.last-inner-left-contact-div{
+    width:100%;
+    height:100px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    
+}
+.top-inner-right-contact-div{
+    width:100%;
+    height:100px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    
+}
+.middle-inner-right-contact-div{
+    width:100%;
+    height:80px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+}
+.last-inner-right-contact-div{
+    width:100%;
+    height:130px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+   
+}
+.small-div{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50px;
+    color: #FF5733;
+    font-weight: 900;
+    box-sizing: border-box;
+    padding-top: 15px;
+    text-align: center;
+    background-color:#F2D2BD;
+
+}
+.small-div:hover{
+    background-color: #FF5733;
+    color:white;
+}
+.top-inner-left-contact-div h2{
+ margin-left: 60px;
+ font-weight: 200;
+ margin-bottom: 0px;
+ margin-top: 8px;
+ 
+}
+.top-inner-left-contact-div p{
+    margin-left: 60px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.middle-inner-left-contact-div h2{
+    margin-left: 60px;
+    font-weight: 200;
+    margin-top: 8px;
+    margin-bottom: 0px;
+
+}
+.middle-inner-left-contact-div p{
+    margin-left: 60px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.last-inner-left-contact-div h2{
+    margin-left: 60px;
+    font-weight: 200;
+    margin-top: 8px;
+    margin-bottom: 0px;
+
+}
+.last-inner-left-contact-div p{
+    margin-left: 60px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+#nameinput{
+ width: 45%;
+ height: 50px;
+ margin-left:20px;
+ padding-left: 20px;
+ color: #212529;
+ font-size: 14px;
+ background-color: #fff;
+ box-sizing: border-box;
+ border: 1px solid #ced4da;
+}
+
+#emailinput{
+    width: 45%;
+    height: 50px;
+    margin-left:20px;
+    padding-left: 20px;
+    color: #212529;
+    font-size: 14px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+}
+#subject-input{
+    width: 95%;
+    height: 50px;
+    margin-left:20px;
+    padding-left: 20px;
+    color: #212529;
+    font-size: 14px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+}
+#message-input{
+    width: 95%;
+    margin-left:20px;
+    padding-left: 20px;
+    font-family:sans-serif;
+    color: #212529;
+    font-size: 14px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+
+}
+#sendmessage{
+ width:20%;
+ height: 50px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+ border-radius: 25px;
+ color:white;
+ font-weight: 500;
+ background-color:#FF5733; 
+ margin-left: 300px;
+ margin-bottom: 0px;
+ font-family:sans-serif;
+ text-decoration: none;
+
+}
+#sendmessage:hover{
+ background-color: #ff781f;
+}
+
+.nineeth-flex-container{
+    width:100%;
+    height:300px;
+    box-sizing: border-box;
+    background-color: #14151c;
+
+}
+.inner-nineeth-flex-container{
+    box-sizing: border-box;
+    width:90%;
+    height: 280px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background-color: #14151c;
+    
+    margin: auto;
+
+}
+.inner-nineeth-flex-container p{
+  font-size: 13px;
+  color:white
+}
+.inner-nineeth-flex-container li{
+    list-style: none;
+    display: inline;
+}
+.first-ul-socials a{
+ margin-right: 5px;
+ margin-top:0px;
+ width:80px;
+ height: 80px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-right: 10px;
+ padding-left: 10px;
+ border-radius: 50px;
+ text-decoration: none;
+ color: white;
+ font-weight: 500;
+ background-color:#FF5733; ;
+
+}
+.first-ul-socials a:hover{
+    background-color:#ff781f;
+
+}
+.second-ul-copyrights li{
+    display: inline;
+    margin-right: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+
+}
+#li-Selaco{
+ font-weight: 900;
+}
+.link-bstrap{
+    text-decoration:none;
+    color:#FF5733;
+
+}
+.link-bstrap:hover{color: #ff781f;}
+
+.inner-nineeth-flex-container h1{
+ font-weight:900;
+ font-size:36px;
+ margin-top: 5px;
+ color:white;
+}
+
+
+
+/* Media queries for Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 720px) {
+    /*Media queries for second-flex-container class*/
+    .second-flex-container{
+        display:none;
+        
+    }
+/*Media queries for third-flex-container class*/
+    .third-flex-container{
+      padding:10px;
+      width:100%;
+      margin-left: 40px;
+      height:auto;
+    
+    }
+/*Media queries for homepg-info class*/
+    .homepg-info{
+     margin: auto;
+     width:50%;
+     height:500px;
+     box-sizing: border-box;
+     padding-left: 10px;
+     padding-right: 10px;
+     text-align: center;
+     
+    }
+/*Media queries for h1 element on  homepg-info class */
+    .homepg-info h1{
+    margin-left:8px;
+    font-weight: 600;
+    font-size:40px;
+    
+}
+/*Media queries for <p> element on  homepg-info class*/
+     .homepg-info p{
+      margin-left:8px;
+  }
+/*Media queries for readmore */
+.readmore{
+      margin-left:4%;
+  }
+/*Media queries for the forth-flex-container class */
+.forth-flex-container{
+   width: 100%;
+   display: flex;
+   height:auto;
+   flex-direction:column;
+   padding:10px;
+   margin-left: 40px;
+  }
+/*Media queries of the left-about-us class */
+.left-about-us{
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    padding:0px;
+    box-sizing:border-box;   
+  }
+/*Media queries of the right-about-us class */
+.right-about-us{
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    padding:0px;
+    margin-top: 10px; 
+  }
+/*Media quieries of the learnmore class*/
+.learnmore{
+    margin-top: 30px;
+    
+}
+/*Media queries for the abt-ul class */
+  .abt-ul{
+  padding: 0px;
+  
+}
+/*Media queries for the fifth-flex-container class */
+.fifth-flex-container{
+ width:100%;
+ height: auto;
+ margin: auto;
+ border: solid 1px blue;
+
+}
+.sun-link{
+ width: 20%;
+ height: 60px;
+ margin-left: 2px;
+ margin-right: 2px;
+ 
+}
+.moon-link{
+    width: 20%;
+    height: 60px;
+    margin-right: 2px;
+
+}
+.handsup-link{
+    width: 20%;
+    height: 60px;
+    margin-right: 2px;
+
+}
+.star-link{
+    width: 20%;
+    height: 60px;
+    margin-right: 2px;
+}
+
+} 
+
+
+
+    
+    
+
+
