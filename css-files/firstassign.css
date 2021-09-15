@@ -1398,7 +1398,7 @@ background-color:tomato;
 
 
 /* Media queries for Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 720px) {
+@media screen and (min-width:0px) and (max-width: 720px) {
     /*Media queries for second-flex-container class*/
     .second-flex-container{
         display:none;
@@ -1484,6 +1484,7 @@ background-color:tomato;
 .sun-link{
  width: 20%;
  height: 60px;
+ 
  margin-left: 2px;
  margin-right: 2px;
  
@@ -1491,20 +1492,27 @@ background-color:tomato;
 .moon-link{
     width: 20%;
     height: 60px;
+    
     margin-right: 2px;
 
 }
 .handsup-link{
     width: 20%;
     height: 60px;
+    
     margin-right: 2px;
 
 }
 .star-link{
     width: 20%;
     height: 60px;
+    
     margin-right: 2px;
 }
+#modisit{
+ display: none;
+}
+
 
 } 
 
