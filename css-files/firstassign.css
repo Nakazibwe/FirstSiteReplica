@@ -2,8 +2,8 @@
 body{
     margin:0;
     padding:0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background:whitesmoke!important ;
+    font-family: "Open Sans", sans-serif;
+    background-color: whitesmoke;
 
 }
 /*The properties of the  header section for the homepage */
@@ -262,6 +262,7 @@ padding-left:6px;
 .about{
     width:4%;
     background-color:#40455A;
+    b
     /* margin-left:1px; */
     margin-right:1px;
     padding-right: 10px;
@@ -621,7 +622,8 @@ padding-left:6px;
  text-decoration: none;
  color:black;
  padding:1%;
- margin: auto;
+ margin-left: 80px;
+ margin-right: 30px;
  box-sizing: border-box;
  border: solid 1px #d4d6df;
  background-color:white;
@@ -641,7 +643,7 @@ padding-left:6px;
     text-decoration: none;
     color:black;
     padding:1%;
-    margin: auto;
+    margin-right: 30px;
     box-sizing: border-box;
     border: solid 1px #d4d6df;
     background-color: white;
@@ -662,7 +664,7 @@ padding-left:6px;
     text-decoration: none;
     color:black;
     padding:1%;
-    margin: auto;
+    margin-right: 30px;
     box-sizing: border-box;
     border: solid 1px #d4d6df;
     background-color: white;
@@ -682,7 +684,7 @@ padding-left:6px;
     text-decoration: none;
     color:black;
     padding:1%;
-    margin: auto;
+    margin-right: 30px;
     box-sizing: border-box;
     border: solid 1px #d4d6df;
     background-color: white;
@@ -695,6 +697,23 @@ padding-left:6px;
     border: solid 1px tomato;
 
 }
+/*Properties for the labels inside the sun-link div*/
+#modisit{
+    font-size:17px
+   }
+/*Properties for the labels inside the moon-link div*/  
+   #unde{
+    font-size:17px
+   }
+/*Properties for the labels inside the handsup-link div*/  
+   #Pariatur{
+    font-size:17px
+   }
+/*Properties for the labels inside the star-link div*/   
+   #Nostrum{
+    font-size:17px
+   
+   }
 /*The properties for the sixth-flex-container */
 .sixth-flex-container{
  width:100%;
@@ -731,7 +750,7 @@ background-color:white;
     flex-direction: row;
     align-items: stretch;
     /* justify-content:space-between; */
-    background-color:#40455A;
+    background-color: #2a2c39;
 }
 /*The properties for the div on the left side of the seventh-flex-container*/
 #call-for-action{
@@ -741,7 +760,7 @@ background-color:white;
     padding-top: 50px;
     box-sizing: border-box;
     color:white;
-    background-color: #40455A;
+    background-color: #2a2c39;
 }
 /*The properties for the heading on the call-for-action div*/
 #call-for-action h2{
@@ -752,10 +771,9 @@ background-color:white;
 #call-for-action-2{
     width:27%;
     height: 120px;
-    align-content: center;
     padding-left: 50px;
     padding-top: 130px;
-    background-color: #40455A;
+    background-color: #2a2c39;
 }
 /*The properties for the link on the right div of the seventh-flex-container */
 #call-for-action-2 a{
@@ -787,7 +805,7 @@ background-color:white;
 
 }
 #inner-div-eighth-flex-container{
-    width: 50%;
+    width: 70%;
     height:120px;
     
 }
@@ -1408,7 +1426,7 @@ background-color:tomato;
     .third-flex-container{
       padding:10px;
       width:100%;
-      margin-left: 40px;
+      /* margin-left: 40px; */
       height:auto;
     
     }
@@ -1444,24 +1462,33 @@ background-color:tomato;
    display: flex;
    height:auto;
    flex-direction:column;
-   padding:10px;
-   margin-left: 40px;
+   padding-left:0px;
+   /* margin-left: 40px; */
+  
   }
 /*Media queries of the left-about-us class */
 .left-about-us{
-    width: 50%;
+    width: 100%;
     height: 400px;
     margin: auto;
     padding:0px;
+    padding-left:2%;
+    
     box-sizing:border-box;   
+    
   }
 /*Media queries of the right-about-us class */
 .right-about-us{
-    width: 50%;
+    width: 100%;
     height: 300px;
-    margin: auto;
+    margin-left: 0px;
     padding:0px;
+    margin: auto;
     margin-top: 10px; 
+    padding-left:2%;
+    box-sizing: border-box;
+    
+
   }
 /*Media quieries of the learnmore class*/
 .learnmore{
@@ -1477,42 +1504,194 @@ background-color:tomato;
 .fifth-flex-container{
  width:100%;
  height: auto;
- margin: auto;
- border: solid 1px blue;
-
+ /* margin-left: 40px; */
+ 
+ /* border: solid 5px black; */
+}
+#inner-fifth-flex-div{
+  width:70%; 
+  box-sizing: border-box;
+  /* border: solid 5px red; */
 }
 .sun-link{
- width: 20%;
+ width: 15%;
  height: 60px;
- 
- margin-left: 2px;
- margin-right: 2px;
+ margin-right: 30px;
  
 }
 .moon-link{
-    width: 20%;
+    width: 15%;
     height: 60px;
-    
-    margin-right: 2px;
+    margin-right: 30px;
 
 }
 .handsup-link{
-    width: 20%;
+    width: 15%;
     height: 60px;
-    
-    margin-right: 2px;
+    margin-right: 30px;
 
 }
 .star-link{
-    width: 20%;
+    width: 15%;
     height: 60px;
-    
-    margin-right: 2px;
+    margin-right: 40px;
 }
 #modisit{
  display: none;
 }
 
+#unde{
+    display: none;
+
+}
+#Pariatur{
+    display: none;
+}
+#Nostrum{
+    display: none;
+
+}
+.sixth-flex-container{
+ width: 100%;
+ height: auto;
+ flex-direction: column-reverse;
+ /* margin-left: 40px; */
+ 
+ 
+}
+
+.inner-sixth-flex-containers{
+  margin-top:20px;
+  margin-bottom: 20px;
+  
+  
+
+}
+#inner-sixth-info-div{
+    width: 100%;
+    height: 520px;
+    padding: 0px;
+    padding-left:2%;
+    box-sizing: border-box;
+}
+
+#inner-sixth-image-div{
+ width: 100%;
+ height: 500px;
+ padding-left:2%;
+ box-sizing: border-box;
+
+}
+.seventh-flex-container{
+ width:100%;
+ height: auto;
+ display: flex;
+ flex-direction: column;
+ background-color: #2a2c39;
+ 
+}
+#call-for-action{
+ width: 50%;
+ height: 280px;
+ margin: auto;
+ text-align: center;
+ box-sizing: border-box;
+ padding-left: 3%;
+ padding-right: 3%;
+ background-color: #2a2c39;
+ 
+ 
+}
+#call-for-action-2{
+ width:50%;
+ height:120px;
+ margin: auto;
+ padding-top:4%;
+ padding-left:14%;
+ box-sizing: border-box;
+ background-color: #2a2c39;
+ 
+}
+.eighth-flex-container{
+ width: 100%;
+ display: flex;
+ box-sizing: border-box;
+ padding-left:0px;
+ 
+
+}
+#inner-div-eighth-flex-container{
+width:100%;
+height: 100px;
+padding-left:2%;
+
+ 
+}
+#inner-div-eighth-flex-container ul{
+ padding-left: 0px;
+}
+#inner-div-eighth-flex-container h1{
+    margin-left: 0px;
+}
+.nineth-flex-container{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction:column;
+    
+    
+
+}
+.inner-div-nineth-flex-container{
+ width:80%;
+ height: 200px;
+ margin-top: 2%;
+ margin-bottom: 2%;
+ margin-left: 2%;
+ margin-right: 1%;
+ 
+}
+
+.tenth-flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    padding-left:0px;
+    
+}
+.inner-div-tenth-flex-container{
+    width:100%;
+    height: 100px;
+    padding-left:2%;
+   
+}
+.inner-div-tenth-flex-container ul{
+    padding-left: 0px;
+}
+.inner-div-tenth-flex-container  h1{
+    margin-left: 0px;
+}
+.eleventh-flex-container{
+ width:100%;
+ height: auto;
+ display: flex;
+ padding-left:1%;
+ padding-right:1%;
+ flex-direction: column;
+ 
+
+}
+.inner-eleventh-flex-item{
+    width: 70%;
+    height: 300px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 1%;
+
+
+}
 
 } 
 
